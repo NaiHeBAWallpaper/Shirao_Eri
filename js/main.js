@@ -51,8 +51,8 @@ const AUDIO_DETAIL = [
 				"Back then... I faced the canvas with innocence and purity."
 			],
 			Chinese: [
-				"……我还记得第一次拿起画笔的那一天。",
-				"那时候……我带着纯粹与天真，直面画布。"
+				"……想起了第一次拿起笔作画的那天。",
+				"那时的我……纯粹而专注，只是单纯地，心无旁骛地面对着画布。"
 			]
 		}
 	},
@@ -70,8 +70,8 @@ const AUDIO_DETAIL = [
 				"I've lost my way, not knowing what to paint anymore..."
 			],
 			Chinese: [
-				"现在的我……已经变了。",
-				"我迷失了方向，不知道该画些什么……。"
+				"现在的我……却不同了。",
+				"迷失了该画什么，也失去了自信……"
 			]
 		}
 	},
@@ -89,8 +89,8 @@ const AUDIO_DETAIL = [
 				"The magic called 'dreams' already resides within your heart."
 			],
 			Chinese: [
-				"就在那时，师傅教会了我重要的一课。",
-				"名为'梦想'的魔法，早已在你心中栖息。"
+				"就在那时，Master告诉了我。",
+				"名为『梦想』的魔法，早已寄宿在心中。"
 			]
 		}
 	},
@@ -108,8 +108,8 @@ const AUDIO_DETAIL = [
 				"Master... would you walk this path with me, if you will?"
 			],
 			Chinese: [
-				"有了梦想……我再也不会迷失方向了。",
-				"师傅……如果你愿意的话，能否与我一同踏上这条路？"
+				"只要怀揣梦想……从今以后，应该不会再迷失方向了。",
+				"Master……如果您愿意的话，可以陪我一起走下去吗？"
 			]
 		}
 	},
@@ -125,7 +125,7 @@ const AUDIO_DETAIL = [
 				"A magical path filled with colorful dreams!"
 			],
 			Chinese: [
-				"一条满是缤纷梦想的魔法之路！"
+				"这条魔法之路，会缀满五彩斑斓的梦想！"
 			]
 		}
 	}
