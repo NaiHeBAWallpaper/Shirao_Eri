@@ -44,7 +44,8 @@ const subtitleLocales = {
 	Chinese: 'zh-Hans',
 	TraditionalChinese: 'zh-Hant',
 	Japanese: 'ja',
-	Korean: 'ko'
+	Korean: 'ko',
+	Thai: 'th'
 };
 
 const CHARACTER = 'CH0304';
@@ -61,21 +62,22 @@ const AUDIO_DETAIL = [
 				"あのときは……まっすぐ、純粋に、キャンバスと向き合っていました。"
 			],
 			English: [
-				"...I remember the day I first picked up a brush.",
-				"Back then... I faced the canvas with innocence and purity."
+				"...This reminds me of the first time I ever picked up a brush.",
+				"Back then... I was so fresh and pure... ...when I faced that canvas."
 			],
 			Chinese: [
-				"……想起了第一次拿起笔作画的那天。",
-				"那时的我……纯粹而专注，只是单纯地，心无旁骛地面对着画布。"
+				"……回想起了第一次画画的时候呢。",
+				"那时……我是多么坦率又纯粹地面对着画布啊。"
 			],
 			TraditionalChinese: [
 				"……我想起了第一次畫畫的日子。",
-				"那時的我……純粹而專注，只是單純地，心無旁騖地面對著畫布。"
+				"那時……我筆直地、純粹地，面對著畫布。"
 			],
 			Korean: [
 				"……처음 회화를 그렸을 때가 생각나요.",
-				"그 당시 저는 무죄와 순결으로 대면했습니다."
-			]
+				"그때는…… 정직하게, 순수하게 캔버스와 마주했었어요."
+			],
+			Thai: ["ฉันนึกถึงตอนที่ วาดภาพครั้งแรกเลยค่ะ","ตอนนั้น... ฉันเผชิญหน้ากับผ้าใบแคนวาส อย่างซื่อสัตย์และบริสุทธิ์ใจ"]
 		}
 	},
 	{
@@ -85,12 +87,12 @@ const AUDIO_DETAIL = [
 				"何を描けばいいのか分からなくなって、自信を失ってしまって……。"
 			],
 			English: [
-				"But now... I've changed.",
-				"I've lost my way, not knowing what to paint anymore..."
+				"But now... I don't feel that way anymore.",
+				"I lost the magic of my inspiration...and with it, I lost my confidence."
 			],
 			Chinese: [
-				"现在的我……却不同了。",
-				"迷失了该画什么，也失去了自信……"
+				"而现在我好像……已经不再是那样了。",
+				"总是在犹豫不知道画什么好，迷茫着……不知不觉失去了信心……"
 			],
 			TraditionalChinese: [
 				"而現在的我……並不一樣。",
@@ -99,7 +101,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"지금의 저는…… 아닌 것 같아요.",
 				"무엇을 그리면 좋을지 방황하다가, 자신감을 잃어버리게 되어서……"
-			]
+			],
+			Thai: ["ฉันในตอนนี้... เหมือนไม่ใช่ตัวฉันเองเลยค่ะ","ฉันไม่รู้ว่าจะวาดอะไรดีและ สูญเสียความมั่นใจไปหมด..."]
 		}
 	},
 	{
@@ -109,12 +112,12 @@ const AUDIO_DETAIL = [
 				"「夢」という魔法は、もう心の中に宿ってるって。"
 			],
 			English: [
-				"That's when Master taught me something important.",
-				"The magic called 'dreams' already resides within your heart."
+				"But then, you told me, Master...",
+				"...that dreams are a magic all their own, right here in my heart."
 			],
 			Chinese: [
-				"就在那时，Master告诉了我。",
-				"名为『梦想』的魔法，早已寄宿在心中。"
+				"就在那时，是大师教会了我。",
+				"其实那名为【梦想】的魔法，早已在我心中生根发芽了。"
 			],
 			TraditionalChinese: [
 				"就在那時，御者告訴了我。",
@@ -123,7 +126,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"그러던 중, 마스터께서 알려 주셨어요.",
 				"<꿈>이라는 마법이, 이미 마음속에 깃들어 있다고."
-			]
+			],
+			Thai: ["และในตอนนั้นเอง มาสเตอร์ก็ทำให้ฉันได้รู้ค่ะ","ว่าเวทมนตร์ที่ชื่อว่า <ความฝัน> มันอยู่ในใจของฉันอยู่แล้ว"]
 		}
 	},
 	{
@@ -133,12 +137,12 @@ const AUDIO_DETAIL = [
 				"マスター……よければ、私と同じ道を歩みませんか？"
 			],
 			English: [
-				"With dreams... I won't lose my way anymore.",
-				"Master... would you walk this path with me, if you will?"
+				"That those dreams could keep me from getting lost on the path.",
+				"Master...if you don't mind, would you like to walk the path with me?"
 			],
 			Chinese: [
-				"只要怀揣梦想……从今以后，应该不会再迷失方向了。",
-				"Master……如果您愿意的话，可以陪我一起走下去吗？"
+				"只要有梦想……就不会再迷失方向了。",
+				"大师……如果您愿意的话，您要不要和我一起走呢？"
 			],
 			TraditionalChinese: [
 				"只要有夢想……從今以後，似乎就不會再迷失方向了。",
@@ -147,7 +151,8 @@ const AUDIO_DETAIL = [
 			Korean: [
 				"꿈이 있다면…… 더 이상, 길을 헤매는 일은 없을 거예요.",
 				"마스터…… 괜찮다면, 저와 같은 길을 걷지 않으시겠어요?"
-			]
+			],
+			Thai: ["ถ้ามีความฝันละก็... ไม่มีทางที่จะ หลงทางอีกแน่นอนค่ะ","มาสเตอร์... ถ้าไม่รบกวนเกินไป ช่วยเดินไปกับฉันได้มั้ยคะ?"]
 		}
 	},
 	{
@@ -156,17 +161,18 @@ const AUDIO_DETAIL = [
 				"色とりどりの夢でいっぱいの、魔法の道を！"
 			],
 			English: [
-				"A magical path filled with colorful dreams!"
+				"The path of magic, full of colorful dreams!"
 			],
 			Chinese: [
-				"这条魔法之路，会缀满五彩斑斓的梦想！"
+				"一起踏上这条充满缤纷梦想的，魔法之路！"
 			],
 			TraditionalChinese: [
 				"色彩繽紛、充滿夢想的──魔法之路！"
 			],
 			Korean: [
 				"형형색색의 꿈으로 가득한, 마법의 길을!"
-			]
+			],
+			Thai: ["เดินไปด้วยกันบน เส้นทางแห่งเวทมนตร์ ที่เต็มไปด้วยความฝัน อันสดใสนี้กันนะคะ!"]
 		}
 	}
 ];
@@ -278,7 +284,7 @@ function playVoiceline() {
 			track.play().catch(finish);
 
 			if (dialogBox) {
-				textbox.textContent = dialog[window.selectedLanguage][index];
+				textbox.textContent = getSubtitleText(dialog, window.selectedLanguage, index);
 				textbox.style.opacity = 1;
 			}
 		},
@@ -444,6 +450,16 @@ function setMouse(event) {
 	return { x: ax - canvas.width * positionX, y: ay - canvas.height * positionY };
 }
 
+function getSubtitleText(dialog, language, index) {
+	let text = dialog?.[language]?.[index];
+	if (text == null && language === 'Thai') {
+		language = 'English';
+		text = dialog?.[language]?.[index];
+	}
+	textbox.lang = subtitleLocales[language];
+	return text ?? "";
+}
+
 function updateSubtitleLanguage() {
 	let language = subtitleLanguagePreference;
 	if (language === 'auto') {
@@ -457,6 +473,8 @@ function updateSubtitleLanguage() {
 			language = 'Japanese';
 		} else if (primary === 'ko' || primary === 'korean' || primary === 'koreana') {
 			language = 'Korean';
+		} else if (primary === 'th' || primary === 'thai') {
+			language = 'Thai';
 		} else {
 			language = 'English';
 		}
@@ -466,7 +484,7 @@ function updateSubtitleLanguage() {
 	window.selectedLanguage = language;
 	textbox.lang = subtitleLocales[language];
 	const clip = currentTracks.at(-1);
-	if (dialogBox && clip) textbox.textContent = clip.dialog[language][clip.index];
+	if (dialogBox && clip) textbox.textContent = getSubtitleText(clip.dialog, language, clip.index);
 }
 
 function init() {
